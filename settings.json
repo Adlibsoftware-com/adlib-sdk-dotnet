@@ -1,0 +1,48 @@
+﻿{
+  "LogLevel": "INFO",
+  "LocalInputFolder": "C:\\Adlib\\input",
+  "LocalOutputFolder": "C:\\Adlib\\output",
+  "LocalCompleteFolder": "C:\\Adlib\\complete",
+  "LocalErrorFolder": "C:\\Adlib\\error",
+  "LocalTempFolder": "C:\\Adlib\\temp",
+  "SharedWorkingFolder": "C:\\Adlib\\work",
+
+  "AdlibApiUrl": "https://dev-api.adlibdevcloud.com",
+  "AdlibServicesHostName": "GS-0930.adlibdevcloud.com",
+  "AuthenticationUsername": "adlibdevcloud\\AdlibPowerUser",
+  "RepositoryName": "SDKRep",
+  "LocationName": "MonitoredLocation",
+  "TenantId": "7407a05a-c110-4721-ba87-cd316ac65ba3",
+  "AdlibServicesPort": 55583,
+
+  "AdlibAuthenticationPort": 8080,
+
+  "UploadFileBufferSize": "1000000",
+  "DownloadFileBufferSize": "5242880",
+  "ShouldStreamFiles": "True",
+
+  "MonitoredLocation": null,
+  "InputMetadata": "<?xml version='1.0' encoding='utf-16'?><ArrayOfString xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema'><string>IsMock=false</string></ArrayOfString>",
+
+  "SubmitAllFilesToOneOrchestration": "false",
+  "InputFileCheckIntervalInSec": "1",
+  "OutputFileExtension": ".json",
+  "DeleteSourceFileAfterSend": "true",
+  "MoveSourceFileAfterSend": "false",
+
+  "CompletionReceiveMode": "Poll",
+
+  "CompletionPollingIntervalInSec": "15",
+
+  "CompletionCallbackListenPort": "55599",
+  "CompletionCallbackPEMCertificatePath": "C:\\Adlib\\cert\\certificate.pfx",
+  "CompletionCallbackPEMCertificatePassword": "Adlib",
+
+  "CompletionStreamingHost": "localhost",
+  "CompletionStreamingPort": "44362",
+  "CompletionStreamingUseHTTPS": true,
+  "CompletionStreamingRoute": "/ws",
+  "CompletionStreamingHeartbeatIntervalInSec": 60,
+  "CompletionStreamingCORSOriginList": "http://localhost,https://localhost"
+
+}
