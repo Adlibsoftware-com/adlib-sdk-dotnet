@@ -80,7 +80,7 @@
       <HintPath>..\..\..\..\..\..\packages\Adlib.Common.Shared.1.0.0\lib\netstandard2.0\Adlib.Common.Shared.dll</HintPath>
     </Reference>
     <Reference Include="AdlibSDK.V2.Net, Version=1.0.4.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\..\..\..\..\..\packages\AdlibSDK.V2.Net.1.0.2\lib\net48\AdlibSDK.V2.Net.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\packages\AdlibSDK.V2.Net.1.0.3\lib\net48\AdlibSDK.V2.Net.dll</HintPath>
     </Reference>
     <Reference Include="Azure.Core, Version=1.25.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\..\..\packages\Azure.Core.1.25.0\lib\net461\Azure.Core.dll</HintPath>
