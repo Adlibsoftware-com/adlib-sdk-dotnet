@@ -32,6 +32,6 @@
 
   "CompletionReceiveMode": "Poll",
 
-  "CompletionPollingIntervalInSec": "15",
+  "CompletionPollingIntervalInSec": "15"
 
 }
