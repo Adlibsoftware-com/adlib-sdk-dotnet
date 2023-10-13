@@ -32,10 +32,6 @@
 
   "CompletionReceiveMode": "Library",
 
-  "CompletionPollingIntervalInSec": "15",
-
-  // The available rendition types: "Original", "Pdf", "Pdf_Entities", "Text", "Text_Rich", "Thumbnail", "Highlighted", "Redacted", "ConceptRelevanceVector", "Markup"
-  "DownloadFileRendition": "Original",
-  "IsDownloadMetadata": true
+  "CompletionPollingIntervalInSec": "15"
 
 }
