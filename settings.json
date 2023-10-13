@@ -9,10 +9,10 @@
 
   "AdlibApiUrl": "https://dev-api.adlibdevcloud.com",
   "XApiKey": "YOUR-API-KEY",
+  "TenantId": "YOUR-TENANT-ID",
   "LibraryId": "YOUR-LIBRARY-ID",
   "RepositoryName": "YOUR-REPOSITORY-NAME",
-  "LocationName": "YOUR-LOCATION-NAME",
-  "TenantId": "YOUR-TENANT-ID",
+  "LocationName": "OUR-LOCATION-NAME",
   "AdlibServicesPort": 55583,
 
   "AdlibAuthenticationPort": 8080,
@@ -30,8 +30,12 @@
   "DeleteSourceFileAfterSend": "true",
   "MoveSourceFileAfterSend": "false",
 
-  "CompletionReceiveMode": "Poll",
+  "CompletionReceiveMode": "Library",
 
-  "CompletionPollingIntervalInSec": "15"
+  "CompletionPollingIntervalInSec": "15",
+
+  // The available rendition types: "Original", "Pdf", "Pdf_Entities", "Text", "Text_Rich", "Thumbnail", "Highlighted", "Redacted", "ConceptRelevanceVector", "Markup"
+  "DownloadFileRendition": "Original",
+  "IsDownloadMetadata": true
 
 }
