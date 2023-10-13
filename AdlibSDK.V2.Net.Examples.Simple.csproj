@@ -74,13 +74,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Adlib.Common.Public, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\packages\Adlib.Common.Public.1.0.1\lib\netstandard2.0\Adlib.Common.Public.dll</HintPath>
+      <HintPath>packages\Adlib.Common.Public.1.0.1\lib\netstandard2.0\Adlib.Common.Public.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Adlib.Common.Shared, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\packages\Adlib.Common.Shared.1.0.0\lib\netstandard2.0\Adlib.Common.Shared.dll</HintPath>
+      <HintPath>packages\Adlib.Common.Shared.1.0.0\lib\netstandard2.0\Adlib.Common.Shared.dll</HintPath>
     </Reference>
     <Reference Include="AdlibSDK.V2.Net, Version=1.0.4.0, Culture=neutral, processorArchitecture=AMD64">
-      <HintPath>..\..\..\..\..\..\packages\AdlibSDK.V2.Net.1.1.1\lib\net48\AdlibSDK.V2.Net.dll</HintPath>
+      <HintPath>packages\AdlibSDK.V2.Net.1.1.1\lib\net48\AdlibSDK.V2.Net.dll</HintPath>
     </Reference>
     <Reference Include="Azure.Core, Version=1.25.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\..\..\packages\Azure.Core.1.25.0\lib\net461\Azure.Core.dll</HintPath>
@@ -131,7 +132,7 @@
       <HintPath>..\..\..\..\..\..\packages\Jint.2.11.58\lib\net451\Jint.dll</HintPath>
     </Reference>
     <Reference Include="log4net, Version=2.0.14.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\packages\log4net.2.0.14\lib\net45\log4net.dll</HintPath>
+      <HintPath>packages\log4net.2.0.14\lib\net45\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\..\..\packages\Lucene.Net.3.0.3\lib\NET40\Lucene.Net.dll</HintPath>
