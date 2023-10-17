@@ -7,7 +7,7 @@
   "LocalTempFolder": "C:\\Adlib\\temp",
   "SharedWorkingFolder": "C:\\Adlib\\work",
 
-  "AdlibApiUrl": "https://dev-api.adlibdevcloud.com",
+  "AdlibApiUrl": "https://use-uat-api.adlibcloud.com",
   "XApiKey": "YOUR-API-KEY",
   "TenantId": "YOUR-TENANT-ID",
   "LibraryId": "YOUR-LIBRARY-ID",
