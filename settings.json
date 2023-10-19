@@ -7,12 +7,12 @@
   "LocalTempFolder": "C:\\Adlib\\temp",
   "SharedWorkingFolder": "C:\\Adlib\\work",
 
-  "AdlibApiUrl": "https://use-uat-api.adlibcloud.com",
+  "AdlibApiUrl": "YOUR-Adlib-URL",
   "XApiKey": "YOUR-API-KEY",
   "TenantId": "YOUR-TENANT-ID",
   "LibraryId": "YOUR-LIBRARY-ID",
   "RepositoryName": "YOUR-REPOSITORY-NAME",
-  "LocationName": "OUR-LOCATION-NAME",
+  "LocationName": "YOUR-LOCATION-NAME",
   "AdlibServicesPort": 55583,
 
   "AdlibAuthenticationPort": 8080,
