@@ -13,10 +13,7 @@
   "LibraryId": "YOUR-LIBRARY-ID",
   "RepositoryName": "YOUR-REPOSITORY-NAME",
   "LocationName": "YOUR-LOCATION-NAME",
-  "AdlibServicesPort": 55583,
-
-  "AdlibAuthenticationPort": 8080,
-
+  
   "UploadFileBufferSize": "1000000",
   "DownloadFileBufferSize": "5242880",
   "ShouldStreamFiles": "True",
