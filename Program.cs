@@ -64,13 +64,29 @@ namespace AdlibSDK.V2.Net.Examples.Simple
             try
             {
                 if (_log != null) _log.Info(TAG + "Main() loaded settings");
-                _settings = JsonConvert.DeserializeObject<Settings>(System.IO.File.ReadAllText(_settingsFilePath));
+                var settingsFileStr = System.IO.File.ReadAllText(_settingsFilePath);
+
+                // TODO checking whether all mandatory fields are presented in the settings.json
+                if (!settingsFileStr.Contains("DownloadFileRendition"))
+                    throw new Exception($"{TAG} Main() Exception missing mandatory settings: \"DownloadFileRendition\".");
+                else if (!settingsFileStr.Contains("IsDownloadMetadata"))
+                    throw new Exception($"{TAG} Main() Exception missing mandatory settings: \"IsDownloadMetadata\".");
+
+                _settings = JsonConvert.DeserializeObject<Settings>(settingsFileStr);
+
+                if (!_settings.DownloadFileRendition.ToLower().Equals("original") 
+                    && !_settings.DownloadFileRendition.ToLower().Equals("pdf")
+                    && !_settings.DownloadFileRendition.ToLower().Equals("txt")
+                    && !_settings.DownloadFileRendition.ToLower().Equals("rtf")) 
+                {
+                    throw new Exception($"{TAG} Main() Exception settings \"IsDownloadMetadata\" must be Original, pdf, txt or rtf.");
+                }
 
                 //  TODO add any overrides to your settings file you need here
             }
             catch (Exception ex)
             {
-                Console.WriteLine(TAG + "Main() Exception loading settings from path: " + _settingsFilePath, ex);
+                Console.WriteLine(TAG + "Main() Exception loading settings from path: " + _settingsFilePath + ". Exception: \"" + ex + "\"");
                 return;
             }
 

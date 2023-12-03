@@ -12,8 +12,8 @@
   "TenantId": "YOUR-TENANT-ID",
   "LibraryId": "YOUR-LIBRARY-ID",
   "RepositoryName": "YOUR-REPOSITORY-NAME",
-  "LocationName": "YOUR-LOCATION-NAME",
-  
+  "LocationName": "OUR-LOCATION-NAME",
+
   "UploadFileBufferSize": "1000000",
   "DownloadFileBufferSize": "5242880",
   "ShouldStreamFiles": "True",
@@ -29,6 +29,9 @@
 
   "CompletionReceiveMode": "Library",
 
-  "CompletionPollingIntervalInSec": "15"
+  "CompletionPollingIntervalInSec": "15",
 
+  // The available rendition types: "Original", "pdf"
+  "DownloadFileRendition": "Original",
+  "IsDownloadMetadata": true
 }
